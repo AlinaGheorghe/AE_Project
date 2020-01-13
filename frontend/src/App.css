@@ -1,0 +1,129 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1519750783826-e2420f4d687f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+}
+
+h2 {
+  font-family: sans-serif;
+  color: #CC9999;
+  margin-left: 20px;
+  padding-right: 30px;
+  border: solid 1px black;
+  display: inline-block;
+  text-indent: 20px;
+  background-color: black;
+  cursor: pointer;
+}
+
+.nav {
+  background-color: #CC9999; 
+  margin: 0;
+  padding: 0;
+  padding-left: 500px;
+  padding-right: 25px;
+  display: inline-block;
+  border: solid 2px black;
+  border-left: none;
+}
+
+.homePage {
+  font-family: sans-serif;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0;
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.productsPage {
+  font-family: sans-serif;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 10px;
+  padding-left: 40px;
+  padding-right: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.descriere {
+  display: flex;
+}
+
+.descrierePoza {
+  margin: 0;
+  padding: 0;
+  padding-left: 150px;
+}
+
+img {
+  border-radius: 10px; 
+}
+
+.descriereText {
+  margin: 0;
+  padding: 0;
+}
+
+.about {
+  font-family: cursive;
+  font-size: 18px;
+  text-align: center;
+  color: darkslategray;
+  background-color: #ffccff;
+  border-radius: 10px;
+  
+  margin-left: 90px;
+  margin-top: 0;
+  width: 300px;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-bottom: 80px;
+  padding-top: 80px;
+
+}
+
+.catalogProduse {
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 50px;
+}
+
+ul li {
+    width: 580px; /* adjust the size of the catalog block */
+    display: inline-block; 
+    text-align: center;
+    background-color: #CC9999 ; 
+    font-family: cursive;
+    border-radius: 10px; 
+    border: 2px solid black; 
+    margin: 5px;
+    margin-left: 15px
+}
+
+.numeProdus {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.pretProdus {
+  padding: 0;
+
+  color: darkslategray;
+}
+
+.btn {
+    border-radius: 10px;
+    font-style: italic;
+    font-weight: bold;
+    background-image: linear-gradient(slategray, darkslategray);
+}
+
